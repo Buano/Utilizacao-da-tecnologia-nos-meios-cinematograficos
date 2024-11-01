@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>This is cinema</title>
+</head>
+<body>
+    <div class="language-selector">
+        <label for="idioma">Idioma:</label>
+        <select id="idioma">
+            <option value="pt">Português</option>
+            <option value="en">Inglês</option>
+        </select>
+    </div>
+    
+    <div class="tv">
+        <div class="screen">
+            <p id="tv-text">Bem-vindo ao cinema!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="remote">
+            <div class="remote-container">
+                <button class="left" onclick="prevText()">◄</button>
+                <button class="right" onclick="nextText()">►</button>
+                <div class="antenna">
+                    <div class="antenna-ball"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
