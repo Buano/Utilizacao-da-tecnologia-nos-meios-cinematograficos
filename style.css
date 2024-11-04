@@ -10,7 +10,7 @@ body {
 }
 
 .tv {
-    margin-top: 7%;
+    margin-top: 5%;
     width: 90%; /* Alterado para 90% para ser mais flexível */
     max-width: 1000px; /* Largura máxima para telas grandes */
     height: 500px; /* Altura automática */
