@@ -138,6 +138,7 @@ select {
 
     .screen {
         font-size: 1em; /* Menor ainda em telas pequenas */
+        margin-top: 20%;
     }
 
     button {
