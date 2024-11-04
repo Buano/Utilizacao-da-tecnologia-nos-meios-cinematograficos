@@ -115,7 +115,6 @@ select {
 /* Media Queries para responsividade */
 @media (max-width: 768px) {
     .tv {
-        width: 95%; /* Para celulares, ocupa quase toda a tela */
         margin-top: 15%; /* Aumenta a margem superior para empurrar mais para baixo */
     }
 
