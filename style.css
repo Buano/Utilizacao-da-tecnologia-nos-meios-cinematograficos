@@ -31,7 +31,7 @@ body {
     align-items: center;
     color: white;
     font-size: 2em;
-    text-align: center; /* Centraliza o texto */
+    text-align: justify; /* Centraliza o texto */
     margin-left: 5%;
 }
 
@@ -55,7 +55,7 @@ footer {
     border: 4px solid #e67e22; 
     border-radius: 10px;
     position: relative; 
-    margin-bottom: 50px;
+    margin-bottom: 7px;
 }
 
 button {
