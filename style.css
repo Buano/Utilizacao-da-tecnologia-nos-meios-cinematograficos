@@ -115,7 +115,7 @@ select {
 /* Media Queries para responsividade */
 @media (max-width: 768px) {
     .screen {
-        font-size: 1.5em; /* Reduzir o tamanho da fonte */
+        font-size: 1em; /* Reduzir o tamanho da fonte */
     }
 
     button {
@@ -133,15 +133,16 @@ select {
 @media (max-width: 480px) {
     .tv {
         width: 95%; /* Para celulares, ocupa quase toda a tela */
+        margin-top: 15%;
     }
 
     .screen {
-        font-size: 1.2em; /* Menor ainda em telas pequenas */
+        font-size: 1em; /* Menor ainda em telas pequenas */
     }
 
     button {
         width: 40px; /* Botões ainda menores */
         height: 40px;
-        font-size: 1.2em; /* Tamanho da fonte dos botões */
+        font-size: 1.5em; /* Tamanho da fonte dos botões */
     }
 }
