@@ -133,7 +133,7 @@ select {
 @media (max-width: 480px) {
     .tv {
         width: 95%; /* Para celulares, ocupa quase toda a tela */
-        margin-top: 30%; /* Aumenta a margem superior para empurrar mais para baixo */
+        margin-top: 15%; /* Aumenta a margem superior para empurrar mais para baixo */
     }
 
     .screen {
